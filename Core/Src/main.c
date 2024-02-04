@@ -102,7 +102,7 @@ int main(void)
   while (1)
   {
     if (1)
-    { // false for blinking LEDs (1.5.1), true for toggling (1.5.2)
+    { // true for blinking LEDs (1.5.1), false for reading a button (1.5.2)
       /* 1.5.1 Configuring a GPIO Pin to Output and Blink an LED. */
       // Toggle both pin output states within the endless loop.
       // change the LED8 & LED9 to LED6 & LED7
